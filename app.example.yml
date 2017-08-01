@@ -1,7 +1,7 @@
 # Aplication configuration file
 
 application:
-  name: GSBackupAPI
+  name: SlimArangoSkeleton
   version: 0.1
   debug: true
 
@@ -20,7 +20,3 @@ arangodb:
   timeout: 3
   reconnect: true
   create: true
-
-aws:
-  access_id: YourAWSAccessID
-  access_key: YourAWSAccessKey

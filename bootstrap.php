@@ -27,6 +27,9 @@ ArangoConnectionProvider::register($container);
 
 $app = new App($container);
 
+/**
+ * Load application routes
+ */
 require 'routes.php';
 
 return $app;

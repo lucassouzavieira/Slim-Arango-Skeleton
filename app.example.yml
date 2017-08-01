@@ -1,0 +1,26 @@
+# Aplication configuration file
+
+application:
+  name: GSBackupAPI
+  version: 0.1
+  debug: true
+
+api:
+  prefix: api
+  version: v1
+
+arangodb:
+  database: dbname
+  host: 127.0.0.1
+  port: 8529
+  user: arango-user
+  password: arango-password
+  auth: Basic
+  connection: Close
+  timeout: 3
+  reconnect: true
+  create: true
+
+aws:
+  access_id: YourAWSAccessID
+  access_key: YourAWSAccessKey

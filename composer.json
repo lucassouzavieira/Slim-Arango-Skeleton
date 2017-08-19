@@ -1,6 +1,6 @@
 {
-    "name": "gerasolucoes/gsbackup-api",
-    "description": "REST API para o app GSBackup",
+    "name": "lvieira/slim-arango",
+    "description": "Skeleton for applications with Slim and Arango",
     "type": "project",
     "require": {
         "php": ">=7.0.18",

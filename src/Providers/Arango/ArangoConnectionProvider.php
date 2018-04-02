@@ -4,10 +4,10 @@ namespace App\Providers\Arango;
 
 use Slim\Container;
 use App\Core\Contracts\Providers\ProviderInterface;
-use triagens\ArangoDb\Exception as ArangoException;
-use triagens\ArangoDb\Connection as ArangoConnection;
-use triagens\ArangoDb\UpdatePolicy as ArangoUpdatePolicy;
-use triagens\ArangoDb\ConnectionOptions as ArangoConnectionOptions;
+use ArangoDBClient\Exception as ArangoException;
+use ArangoDBClient\Connection as ArangoConnection;
+use ArangoDBClient\UpdatePolicy as ArangoUpdatePolicy;
+use ArangoDBClient\ConnectionOptions as ArangoConnectionOptions;
 
 /**
  * Provides an Arango connection to Application

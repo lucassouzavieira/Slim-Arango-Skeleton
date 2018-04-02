@@ -3,11 +3,11 @@
 namespace App\Core\Collection;
 
 use Slim\Container;
-use triagens\ArangoDb\Document;
-use triagens\ArangoDb\ServerException;
-use triagens\ArangoDb\DocumentHandler;
-use triagens\ArangoDb\CollectionHandler;
-use triagens\ArangoDb\Collection as ArangoCollection;
+use ArangoDBClient\Document;
+use ArangoDBClient\ServerException;
+use ArangoDBClient\DocumentHandler;
+use ArangoDBClient\CollectionHandler;
+use ArangoDBClient\Collection as ArangoCollection;
 use App\Core\Contracts\Validation\ValidationInterface;
 
 /**
@@ -56,7 +56,7 @@ abstract class Collection implements ValidationInterface
     /**
      * Returns all documents from Collection
      *
-     * @return \triagens\ArangoDb\Cursor
+     * @return \ArangoDBClient\Cursor
      */
     public function all()
     {
